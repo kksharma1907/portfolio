@@ -1,0 +1,29 @@
+.voting-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.vote-options button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+.vote-options button:hover {
+  background: #0056b3;
+}
+
+.vote-result {
+  margin-top: 10px;
+  font-weight: bold;
+}

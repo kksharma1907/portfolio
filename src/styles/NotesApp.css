@@ -1,0 +1,21 @@
+.notes-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.notes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.notes-list li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 3px;
+}
