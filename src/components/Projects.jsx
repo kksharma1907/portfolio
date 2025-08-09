@@ -14,6 +14,14 @@ function Projects({ projects }) {
 
   const handleProjectClick = (project) => {
     const trimmedProject = project.trim();
+
+    // If Job Portal is clicked, open the link directly
+    if (trimmedProject === "Job Portal") {
+      window.open("https://jobportal.infinityfree.me", "_blank");
+      return;
+    }
+
+    // Otherwise, show component
     if (projectComponents[trimmedProject]) {
       setSelectedProject(trimmedProject);
     }
@@ -33,9 +41,17 @@ function Projects({ projects }) {
                 color: "blue",
                 textDecoration: "underline",
                 cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
               }}
             >
               {project}
+              {project === "Job Portal" && (
+                <span role="img" aria-label="external link">
+                  🔗
+                </span>
+              )}
             </button>
           </li>
         ))}

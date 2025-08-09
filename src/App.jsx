@@ -19,11 +19,11 @@ function App() {
         photoUrl="/images/krishna_kumar.jpg"
         resumeUrl="/files/Krishna_Kumar.pdf"
       />
-      <About objective="Results-oriented Software Engineer with extensive experience at Vcare Call Centre, leading PHP code upgrades and ensuring project success through expert database management in MySQL. Proficient in Core PHP, Python, and Django, delivering innovative solutions while fostering strong collaboration within teams. Committed to enhancing software performance and user engagement with a focus on continuous improvement." />
+      <About objective="Results-oriented Software Engineer with extensive experience at Telgoo5, leading PHP code upgrades and ensuring project success through expert database management in MySQL. Proficient in Core PHP, Python, and Django, delivering innovative solutions while fostering strong collaboration within teams. Committed to enhancing software performance and user engagement with a focus on continuous improvement." />
       <Experience
-        company="Vcare Call Centre"
+        company="Telgoo5"
         position="Software Engineer"
-        duration="07/2022 - 07/2024"
+        duration="07/2022 - 07/2025"
         responsibilities={[
           "Executed development and ongoing maintenance for client sites employing various programming languages.",
           "Ensured project deadlines were met through effective teamwork.",
@@ -33,11 +33,16 @@ function App() {
         ]}
       />
       <Projects
-        projects={["Online Voting System", "Portfolio Website", "Notes App"]}
+        projects={[
+          "Online Voting System",
+          "Portfolio Website",
+          "Notes App",
+          "Job Portal",
+        ]}
       />
       <Contact
         email="kk1907sharma@gmail.com"
-        phone="7004699143"
+        phone="8873358905"
         linkedin="https://www.linkedin.com/in/krishna-kumar-b6789316a"
       />
       <Footer name="Krishna Kumar" />
