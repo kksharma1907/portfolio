@@ -1,16 +1,25 @@
 import React from "react";
 
-function Experience({ company, position, duration, responsibilities }) {
+function Experience({ experiences = [] }) {
   return (
     <section id="experience">
-      <h2>Experience</h2>
-      <h3>{position} at {company}</h3>
-      <p>{duration}</p>
-      <ul>
-        {responsibilities.map((task, index) => (
-          <li key={index}>{task}</li>
-        ))}
-      </ul>
+      <h2>Professional Experience</h2>
+
+      {experiences.map((job, index) => (
+        <div key={index} className="experience-item">
+          <h3>
+            {job.position} at {job.company}
+          </h3>
+
+          <p>{job.duration}</p>
+
+          <ul>
+            {job.responsibilities.map((task, taskIndex) => (
+              <li key={taskIndex}>{task}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </section>
   );
 }
