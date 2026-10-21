@@ -16,7 +16,7 @@ function App() {
 
       <Profile
         name="Krishna Kumar"
-        role="Assistant Professor | Software Engineer"
+        role="Assistant Lecturer | Assistant Professor | Software Engineer"
         photoUrl="/images/krishna_kumar.jpg"
         resumeUrl="/files/Krishna_Kumar.pdf"
       />
