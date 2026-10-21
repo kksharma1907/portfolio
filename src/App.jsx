@@ -22,8 +22,8 @@ function App() {
       />
 
       <About
-        objective="STET-qualified educator with 1+ year of teaching experience and 3 years of industry experience as a Software Engineer and PHP Developer. Currently serving as an Assistant Lecturer at Vestor College of Management, Patna, teaching Computer Science and IT subjects to BCA and B.Sc. IT students. Experienced in C Programming, Digital Electronics, Web Technology, Cloud Computing, and hands-on AWS training. Passionate about combining academic teaching with practical industry knowledge to help students develop strong technical skills."
-      />
+  objective="Assistant Lecturer at Vestor College of Management, Patna, with 1+ year of teaching experience and 3 years of industry experience as a Software Engineer and PHP Developer. Experienced in teaching Computer Science and IT subjects to BCA and B.Sc. IT students, including C Programming, Digital Electronics, Web Technology, and Cloud Computing with hands-on AWS training. Passionate about combining academic teaching with practical industry knowledge to help students develop strong technical skills. Also STET-qualified in Computer Science (Secondary Teacher Eligibility Test, 2025)."
+/>
 
       <Experience
         experiences={[
